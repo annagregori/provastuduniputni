@@ -247,7 +247,7 @@ async def auto_tasks(app):
                 except Exception as e:
                     logger.error(f"Errore ban {user['user_id']}: {e}")
 
-        await asyncio.sleep(86400)  # controllo ogni 24 ore
+        await asyncio.sleep(3600)  # controllo ogni 24 ore
 
 # --- MAIN ---
 if __name__ == "__main__":
